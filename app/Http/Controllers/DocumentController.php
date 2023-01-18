@@ -8,7 +8,7 @@ class DocumentController extends Controller
 {
     public function store(Request $request)
     {
-        $request->file->storeAs('/public');
+        $request->file->storeAs('/public/documents');
         
     }
 }
